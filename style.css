@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background: #F5F5F5;
+  color: #000;
+}
+
+.container {
+  margin-left: 73px;
+  margin-right: 73px;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.shop-title {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 29px;
+}
+.header .nav-list {
+  gap: 33px;
+  list-style-type: none;
+}
+.header .nav-list-item a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.header .nav-list-item a:hover {
+  color: blue;
+}
+.header-search-cart {
+  gap: 13px;
+}
+.header-search-cart img {
+  display: block;
+}
+
+.shop-about {
+  background-color: #DCE5E2;
+  border-radius: 32px;
+  padding-left: 56px;
+}
+.shop-about-title {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+}
+.shop-about-subtitle {
+  margin-top: 19px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.shop-about-btn {
+  display: block;
+  width: 170px;
+  margin-top: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.shop-latest {
+  margin-top: 28px;
+  padding-top: 47px;
+}
+.shop-latest-subtitle {
+  width: 628px;
+  margin: 9px auto;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.shop-latest-box {
+  margin-top: 55px;
+  gap: 16px;
+}
+.shop-latest-item {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 32px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+}
+.shop-latest .latest-item-first {
+  width: 639px;
+  height: 492px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-bottom: 20px;
+}
+.shop-latest .latest-item-first .latest-item-title {
+  margin-left: 363px;
+}
+.shop-latest .latest-item-second {
+  margin-top: 72px;
+  width: 639px;
+  height: 270px;
+}
+.shop-latest .latest-item-third {
+  width: 312px;
+  height: 792px;
+}
+.shop-latest .latest-item-third .latest-item-undertitle {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 40px auto;
+  margin-bottom: 0;
+}
+.shop-latest .latest-item-third .latest-item-title {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+.shop-latest .latest-item-fourth {
+  width: 312px;
+  height: 792px;
+  padding-top: 115.11px;
+}
+.shop-latest .latest-item-fourth .latest-item-undertitle {
+  text-align: center;
+}
+.shop-latest .latest-item-fourth .latest-item-title {
+  width: 233px;
+  margin: 0 auto;
+  text-align: center;
+}
+.shop-latest .latest-item-fourth .latest-item-img {
+  margin-top: 42px;
+}
+.shop-latest .latest-item-undertitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+}
+.shop-latest .latest-item-title {
+  width: 192px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+}
+
+.shop-most {
+  margin-top: 72px;
+}
+.shop-most-subtitle {
+  margin-top: 9px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+}
+.shop-most-box {
+  margin-top: 56px;
+}
+.shop-most-item {
+  width: 302.5px;
+}
+.shop-most .most-item-title {
+  margin-top: 5px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+.shop-most .most-item-subtitle {
+  width: 256px;
+  margin-top: 9px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+}
+.shop-most .most-item-price {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.shop-best {
+  margin-top: 50px;
+}
+.shop-best-subtitle {
+  margin-top: 9px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+}
+.shop-best-box {
+  margin-top: 56px;
+}
+.shop-best-item {
+  width: 413px;
+  padding-top: 41px;
+  background: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+}
+.shop-best-item .shop-about-btn {
+  margin: 30px auto;
+}
+.shop-best .best-item-undertitle {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+}
+.shop-best .best-item-title {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+}
+.shop-best .best-item-img {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px auto;
+}
+
+.shop-ideas {
+  margin-top: 50px;
+}
+.shop-ideas-subtitle {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+}
+.shop-ideas-box {
+  margin-top: 56px;
+  gap: 35px;
+}
+.shop-ideas-desc {
+  width: 639px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.shop-ideas-desc p {
+  margin-bottom: 28px;
+}
+.shop-ideas-desc p:last-child {
+  margin-bottom: 0;
+}
+.shop-ideas-all {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 74px auto;
+  padding-right: 35px;
+  background: url("./images/arrow1.png") no-repeat right;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #000;
+}
+
+.shop-search {
+  display: block;
+  width: 650px;
+  margin: 50px auto;
+}
+.shop-search-input {
+  width: 650px;
+  margin-top: 9px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-left: 51px;
+  background: #F8F9FA url("./images/search-input.png") no-repeat 10px;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.shop-search-input::-moz-placeholder {
+  color: #000;
+}
+.shop-search-input::placeholder {
+  color: #000;
+}
+.shop-search-tags {
+  margin: 12px auto;
+  width: 541px;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.shop-search .tags-item {
+  padding-top: 12px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.shop-search .tags-item:nth-child(6) {
+  margin-left: 56px;
+}
+
+.shop-notified {
+  width: 935px;
+  margin: 61px auto;
+  padding-top: 27.55px;
+  padding-bottom: 43.45px;
+  background: #DCE5E2;
+  border: 1px solid #DCE5E2;
+  border-radius: 16px;
+}
+.shop-notified-subtitle {
+  margin-top: 9px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.shop-notified-img {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 14px auto;
+}
+.shop-notified-fm {
+  width: 400px;
+  margin: 13.55px auto;
+}
+.shop-notified-fm input {
+  display: block;
+  width: 285px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.shop-notified-fm input::-moz-placeholder {
+  color: #000;
+}
+.shop-notified-fm input::placeholder {
+  color: #000;
+}
+.shop-notified-fm button {
+  display: block;
+  width: 115px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 0px 200px 200px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 29px;
+  border-top: 1px solid #DCE5E2;
+}
+.footer-desc {
+  width: 304px;
+  margin-top: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-links-title {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+.footer-links-list {
+  margin-top: 19.72px;
+  list-style-type: none;
+}
+.footer-links-list li {
+  margin-bottom: 14.72px;
+}
+.footer-links-list li:last-child {
+  margin-bottom: 0;
+}
+.footer-links-list li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #000;
+}
+.footer-links-list li a:hover {
+  color: blue;
+}
+.footer-author {
+  margin-top: 64px;
+  padding-top: 53px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-top: 1px solid #DCE5E2;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer-author span {
+  font-family: "Readex Pro", sans-serif;
+}
+.footer-author-made, .footer-author-powered {
+  background: url("./images/arrow1.png") no-repeat right;
+  padding-right: 26px;
+}/*# sourceMappingURL=style.css.map */

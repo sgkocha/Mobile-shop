@@ -1,0 +1,547 @@
+$inter: 'Inter', sans-serif;
+$readex: 'Readex Pro', sans-serif;
+$black: #000;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background: #F5F5F5;
+    color: #000;
+}
+
+.container {
+    margin-left: 73px;
+    margin-right: 73px;
+}
+
+.d-f {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.shop {
+    &-title {
+        font-family: $readex;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: center;
+    }
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 29px;
+
+    .nav-list {
+        gap: 33px;
+        list-style-type: none;
+
+        &-item {
+            a {
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: $black;
+
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+
+    &-search-cart {
+        gap: 13px;
+
+        img {
+            display: block;
+        }
+    }
+}
+
+.shop-about {
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    padding-left: 56px;
+
+    &-title {
+        font-family: $readex;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    &-subtitle {
+        margin-top: 19px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &-btn {
+        display: block;
+        width: 170px;
+        margin-top: 30px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: transparent;
+        border: 1px solid #000000;
+        border-radius: 200px;
+        cursor: pointer;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.shop-latest {
+    margin-top: 28px;
+    padding-top: 47px;
+
+    &-subtitle {
+        width: 628px;
+        margin: 9px auto;
+        font-family: $readex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    &-box {
+        margin-top: 55px;
+        gap: 16px;
+    }
+
+    &-item {
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 32px;
+        box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+    }
+
+    .latest-item {
+        &-first {
+            width: 639px;
+            height: 492px;
+            padding-left: 42px;
+            padding-right: 42px;
+            padding-bottom: 20px;
+
+            .latest-item-title {
+                margin-left: 363px;
+            }
+        }
+
+        &-second {
+            margin-top: 72px;
+            width: 639px;
+            height: 270px;
+        }
+
+        &-third {
+            width: 312px;
+            height: 792px;
+
+            .latest-item-undertitle {
+                width: fit-content;
+                margin: 40px auto;
+                margin-bottom: 0;
+            }
+
+            .latest-item-title {
+                width: 250px;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+
+        &-fourth {
+            width: 312px;
+            height: 792px;
+            padding-top: 115.11px;
+
+            .latest-item-undertitle {
+                text-align: center;
+            }
+
+            .latest-item-title {
+                width: 233px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .latest-item-img {
+                margin-top: 42px;
+            }
+        }
+
+        &-undertitle {
+            font-family: $inter;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            text-align: right;
+        }
+
+        &-title {
+            width: 192px;
+            font-family: $readex;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: right;
+        }
+    }
+}
+
+.shop-most {
+    margin-top: 72px;
+
+    &-subtitle {
+        margin-top: 9px;
+        font-family: $readex;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    &-box {
+        margin-top: 56px;
+    }
+
+    &-item {
+        width: 302.5px;
+    }
+
+    .most-item {
+        &-title {
+            margin-top: 5px;
+            font-family: $readex;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        &-subtitle {
+            width: 256px;
+            margin-top: 9px;
+            font-family: $inter;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #4B4B4B;
+        }
+
+        &-price {
+            margin-top: 25px;
+            font-family: $inter;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+.shop-best {
+    margin-top: 50px;
+
+    &-subtitle {
+        margin-top: 9px;
+        font-family: $readex;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    &-box {
+        margin-top: 56px;
+    }
+
+    &-item {
+        width: 413px;
+        padding-top: 41px;
+        background: lightgray;
+        border: 1px solid lightgray;
+        border-radius: 16px;
+
+        .shop-about-btn {
+            margin: 30px auto;
+        }
+    }
+
+    .best-item {
+        &-undertitle {
+            font-family: $readex;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 17px;
+            text-align: center;
+        }
+
+        &-title {
+            font-family: $readex;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+        }
+
+        &-img {
+            width: fit-content;
+            margin: 30px auto;
+        }
+    }
+}
+
+.shop-ideas {
+    margin-top: 50px;
+
+    &-subtitle {
+        margin-top: 9px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    &-box {
+        margin-top: 56px;
+        gap: 35px;
+    }
+
+    &-desc {
+        width: 639px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+
+        p {
+            margin-bottom: 28px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &-all {
+        display: block;
+        width: fit-content;
+        margin: 74px auto;
+        padding-right: 35px;
+        background: url("./images/arrow1.png") no-repeat right;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+.shop-search {
+    display: block;
+    width: 650px;
+    margin: 50px auto;
+
+    &-input {
+        width: 650px;
+        margin-top: 9px;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        padding-left: 51px;
+        background: #F8F9FA url("./images/search-input.png") no-repeat 10px;
+        border: 1px solid #C5C5C5;
+        border-radius: 100px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        &::placeholder {
+            color: $black;
+        }
+    }
+
+    &-tags {
+        margin: 12px auto;
+        width: 541px;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+
+    .tags-item {
+        padding-top: 12px;
+        padding-bottom: 13px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border: 1px solid #C5C5C5;
+        border-radius: 200px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        cursor: pointer;
+
+        &:nth-child(6) {
+            margin-left: 56px;
+        }
+    }
+}
+
+.shop-notified {
+    width: 935px;
+    margin: 61px auto;
+    padding-top: 27.55px;
+    padding-bottom: 43.45px;
+    background: #DCE5E2;
+    border: 1px solid #DCE5E2;
+    border-radius: 16px;
+
+    &-subtitle {
+        margin-top: 9px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    &-img {
+        width: fit-content;
+        margin: 14px auto;
+    }
+
+    &-fm {
+        width: 400px;
+        margin: 13.55px auto;
+
+        input {
+            display: block;
+            width: 285px;
+            padding-top: 16px;
+            padding-bottom: 17px;
+            padding-left: 32px;
+            background: transparent;
+            outline: none;
+            border: 1px solid #000000;
+            border-radius: 54px 0px 0px 54px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+
+            &::placeholder {
+                color: $black;
+            }
+        }
+
+        button {
+            display: block;
+            width: 115px;
+            padding-top: 16px;
+            padding-bottom: 17px;
+            background: $black;
+            border: 1px solid $black;
+            border-radius: 0px 200px 200px 0px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            cursor: pointer;
+
+        }
+    }
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 29px;
+    border-top: 1px solid #DCE5E2;
+
+    &-desc {
+        width: 304px;
+        margin-top: 18px;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &-links {
+        &-title {
+            font-family: $readex;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        &-list {
+            margin-top: 19.72px;
+            list-style-type: none;
+
+            li {
+                margin-bottom: 14.72px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    font-family: $inter;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-decoration: none;
+                    color: $black;
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+
+    &-author {
+        margin-top: 64px;
+        padding-top: 53px;
+        padding-left: 28px;
+        padding-right: 28px;
+        border-top: 1px solid #DCE5E2;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        span {
+            font-family: $readex;
+        }
+
+        &-made,
+        &-powered {
+            background: url("./images/arrow1.png") no-repeat right;
+            padding-right: 26px;
+        }
+    }
+}
